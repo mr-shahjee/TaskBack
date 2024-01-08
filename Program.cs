@@ -3,10 +3,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text; 
-using Microsoft.OpenApi.Models;
+using Microsoft.OpenApi.Models; 
 //var  MyAllowSpecificOrigins = "AllowOrigin";
 
 var builder = WebApplication.CreateBuilder(args);  
+builder.Services.AddControllers().AddNewtonsoftJson(options =>{
+    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+});
 // Add services to the container.
 builder.Services.AddCors(options => {
               options.AddPolicy(name:"AllowOrigin", builder => {
@@ -28,6 +31,8 @@ builder.Services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "PracticeCrud", Version = "v1" });
             });
+
+builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 
 var app = builder.Build();

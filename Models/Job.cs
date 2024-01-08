@@ -15,7 +15,7 @@ namespace PracticeCrud.Models
         public string JobTitle { get; set; }
         public DateTime Expiry { get; set; }
         public int JobDuration { get; set; }
-        //public ICollection<JobDescription> JobDescriptions { get; set; }
         public List<JobDescription> JobDescription { get; set; }
+        
     }
 }

@@ -419,3 +419,8 @@ E:\Task\PracticeCrud-master\PracticeCrud-master\obj\Debug\net6.0\refint\Practice
 E:\Task\PracticeCrud-master\PracticeCrud-master\obj\Debug\net6.0\PracticeCrud.pdb
 E:\Task\PracticeCrud-master\PracticeCrud-master\obj\Debug\net6.0\PracticeCrud.genruntimeconfig.cache
 E:\Task\PracticeCrud-master\PracticeCrud-master\obj\Debug\net6.0\ref\PracticeCrud.dll
+E:\Task\PracticeCrud-master\PracticeCrud-master\bin\Debug\net6.0\AutoMapper.dll
+E:\Task\PracticeCrud-master\PracticeCrud-master\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Task\PracticeCrud-master\PracticeCrud-master\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\Task\PracticeCrud-master\PracticeCrud-master\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\Task\PracticeCrud-master\PracticeCrud-master\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
